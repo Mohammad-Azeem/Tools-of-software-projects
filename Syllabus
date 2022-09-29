@@ -1,0 +1,133 @@
+Course Syllabus
+Jump to Today
+Tools of Software Projects (0+2+0+1) 3 credits
+Time and location
+Time: every Thursday, 12:00-14:00
+Physical location: Southern Building, 0-822 Mogyoródi József lecture hall
+Attendance is mandatory (as with all B.Sc. contact lessons).
+In accordance with the decision of the Government and the University leadership, we are doing physical, on-site, face-to-face education.
+We would like to get immediate feedback from you about the course, so you will be asked to fill out a 5-minute long anonymous survey 
+at the end of every lecture. Thank you, in advance, for participating.
+Always check Announcements regularly and before the lectures to see if there has been any technical change, especially regarding the 
+changing COVID and utility bill situation!
+
+Contact
+Please read Official communication to familiarize yourself with the important information on where communication will take place.
+
+Please do NOT contact us via MS Teams – we are not actively using or monitoring that application! E-mail is a sure way of reaching us.
+
+Richárd Szalay <szalayrichard@inf.elte.hu>
+Dávid Katona <kjdavid@inf.elte.hu>
+Purpose
+Deliver a general idea of what tools are used on typical software projects.
+Show examples of such tools and give hands-on knowledge for selected ones.
+Encourage students to mindfully select technology and plan project decisions.
+Develop teamwork and communication skills, foster open project development.
+Competencies delivered
+Students will get a general overview of what problems a software project faces.
+They will get an insight into various areas of tooling of software development.
+They get a basic introduction on teamwork.
+Topics
+Introduction: Semester roadmap and requirements.
+Automation Basics (Regular Expressions & Shell Programming, POSIX and Bashisms), Technology Choices & Security.
+Central / Distributed VCS & Workflowh. Little SVN, more Git.
+Build Systems - History: Make, Autotools; hands-on: CMake, Ninja.
+Build Systems: Ant, Maven, Gradle. Artefact Repositories
+Testing: Assertions, testing levels, frameworks: JUnit, JMock; mentioned: GTest, GMock, Nosetests.
+Advanced Builds: multiple builds / releases. CI/CD & Automation. DevOps: Jenkins.
+Tools for Code Verification: compiler flags, FindBugs, cppcheck; mentioned: PMD, Sonar, Clang Static Analyzer, Clang-Tidy. 
+Coverage analysis & profiling: eclEmma, VisualVM, gcov, gprof.
+Tools for Code Maintainability: JavaDoc, Doxygen, auto-formatters, code styles & standards, clean code metrics: checkstyle, clang-format, pep8.
+Tools for Virtualisation, Containerisation.
+Literature
+Online material links will be given throughout the semester, as the lectures progress.
+
+Expectations
+The course is project-oriented. Everyone should work in a team of 3 or 4 members (preferably 4, no other team size is possible). 
+No lone wolves are accepted.  Every team member writes code and contributes evenly.
+The goal during the semester is to develop a software product which is developed in a sustainable way regarding used software tools.
+Teams use VCS (Version Control System) to store everything (including code, tests, docs, setup and release scripts...). 
+What is not present in VCS can not be taken as part of assignment submission.
+Teams are required to do their communication, project management, issue handling and administration on VCS or a connected environment. 
+This will be part of the grading.
+Teams are required to do their development and communication open to the public. (unless they get a special confidentiality permission) 
+Being able for any 3rd party to easily join the project is an important factor which will be part of the grading.
+Team members should be constantly in work communication with each other. Teams should solve their internal conflicts (or ask for help immediately),
+keep a calm and effective working environment during the project.
+Teams should strictly keep themselves to deadlines and work in advance if necessary! The project has to be planned. 
+No late submissions will be accepted! Meeting deadlines is a team responsibility!
+All team members actively take part of actually creating the software ("writing code") and equally contribute to the success of the deliverable output.
+Teams should distribute the stars gained by the team at the end of the semester based on the work put into the project by each member during the development.
+Everyone (every student individually, not as a team) has to pass a test on lecture material at the end of the semester.
+Semester roadmap and Grading ("stars")
+Mandatory team criterion, by 3rd week.  Teams are formed, topics submitted.
+25% of team points, by 5th week. VCS repository created, we see the correct usage of VCS, and development of the project is in progress.
+25% of team points, by 8th week. Continous Integration: build system automation is working, tests are run for every commit.
+25% of team points, by 11th week. Extra tools are used on the project (at least 2, from any of the following categories: 
+documentation generators, code verification, style verification, auto-formatting, coverage, fuzzing; but from distinct enough categories, 
+i.e. two different linters that majorly overlap in functionality is not accepted).
+25% of team points, by 14th week. Continous Delivery: There is a one-click release/delivery feature and we can try out the software easily.
+Bonus 25% of team points. Bonus points are given for awesomeness-level of the project, the reflection on how well the plan was achieved, etc. 
+Some of the evaluation components here might be from a competition between the teams, not from an absolute scale.
+Individual criterion, by 16th week. Pass the semester-closing test from all materials of the lecture.
+The exact requirements for each of the milestones above can be found at their appropriate Assignment page, together with the grading schemes we will use.
+If passing, the final grades are formed from a discussed decision of the team members and the teachers. 
+The amount of grades that can be given out depends on the team project's evaluation.
+Here is the grading scheme of Canvas for clarification. It is normalized to 100% (so 100% = 50 acquired points, which includes the bonus as well!)
+and it contains the stars (potentail grades) to be distributed by teams of size 4 and size 3 members, respectively. 
+(So the stars to be distributed are the results of the breakdown below, they are not equal directly to the number of acquired points.)
+
+Stars to distribute	% of	points	if equally	distributed	
+20 (T4) or 15 (T3)
+100%
+to 70%
+everybody	Excellent (5)	
+19 (T4) or 14 (T3)
+< 70%
+to 67.5%
+18 (T4) or 14 (T3)
+< 67.5%
+to 65%
+17 (T4) or 13 (T3)
+< 65%
+to 62.5%
+16 (T4) or 12 (T3)
+< 62.5%
+to 60%
+everybody	Good (4)	
+15 (T4) or 11 (T3)
+< 60%
+to 57.5%
+14 (T4) or 11 (T3)
+< 57.5%
+to 55%
+13 (T4) or 10 (T3)
+< 55%
+to 52.5%
+12 (T4) or 9 (T3)
+< 52.5%
+to 50%
+everybody	Satisfactory (3)	
+11 (T4) or 8 (T3)
+< 50%
+to 47.5%
+10 (T4) or 8 (T3)
+< 47.5%
+to 45%
+9 (T4) or 7 (T3)
+< 45%
+to 42.5%
+8 (T4) or 6 (T3)
+< 42.5%
+to 40%
+everybody	Pass (2)	
+Team fails
+< 40%
+to 0%
+everybody	Fail (1)	
+Deadlines are hard deadlines! No late submissions can be accepted!
+
+Please keep in mind that the work to be done on this course potentially involves interfacing with services provided by third-party corporations,
+over the internet, with whom the University is in no contractual relationship with! Outages, planned (this usually happens on weekends for maintenance) 
+or unplanned, can happen at any minute, or the terms and conditions of using the services may change. 
+We ask everyone not to start working on the assignment on the last day,as it is a surefire way to run out of time and fail the assignment.
